@@ -10,7 +10,7 @@ export default function Login() {
             ...prevUser,[name]:value,
         }))
     }
-    const authenticate = () => {
+    const aunthenticate = () => {
         if(user.username === "Admin" && user.pwd === "abc@123"){
            setuser({username:"", pwd:"", error:""}) 
            navigate('/dash');
